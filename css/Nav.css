@@ -1,0 +1,65 @@
+.Navwrapper {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #0f0f0f20;
+    flex-grow: 1;
+}
+.navSection {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px 32px;
+}
+.navIcon {
+    width: auto;
+    height: 24px;
+    display: none;
+}
+.logo {
+    width: auto;
+    height: 50px;
+    margin: 12px;
+}
+.navLogoSec {
+    margin: 12px 0px;
+}
+.Navlinksec {
+    display: flex;
+    align-items: center;
+}
+.navlink {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 20px;
+}
+.Purachse-button {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: #F4B812;
+    border-radius: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.purchaseIcon {
+    margin-left: 14px;
+}
+
+@media only screen and (max-width: 730px) {
+    .navlink {
+        transition: 0.4s ease-in;
+        margin: 0px 14px;
+    }
+    .navIcon {
+        display: block;
+    }
+    .Navlinksec {
+        display: none;
+    }
+
+}
+

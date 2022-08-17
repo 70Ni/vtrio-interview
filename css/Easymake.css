@@ -1,0 +1,83 @@
+.easy-make-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FFEB80;
+    margin-top: 80px;
+}
+.easymakecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 1020px;
+    padding: 78px 120px;
+}
+.floating-papaya {
+    position: relative;
+}
+.easyimgscontainer {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.makingImag {
+    height: 336px;
+    width: auto;
+}
+.playbutton {
+    position: absolute;
+}
+.makingtxtcontainer {
+    padding-left: 80px;
+}
+
+.pappaya {
+    width: auto;
+    height: 280px;
+    left: 0px;
+    top:80px;
+    position: absolute;
+    z-index: 2;
+}
+.leftaligntext {
+    text-align: left;
+}
+
+@media only screen and (max-width: 1032px) {
+    .easymakecontainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 78px 40px;
+    }
+    .makingtxtcontainer {
+        padding-left: 0px;
+        padding-top: 52px;
+    }
+    .leftaligntext {
+        text-align: center;
+    }
+    .bodycentsml {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .easymakecontainer {
+        padding: 78px 32px;
+    }
+    .makingImag {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .floating-papaya {
+        display: none;
+    }
+}

@@ -1,0 +1,26 @@
+.certificatewrapper {
+    display: flex;
+    justify-content: center;
+}
+.certificatecontainer {
+    display: flex;
+    margin: 40px 0px;
+}
+.cert-logo {
+    padding: 0px 20px;
+    height: 44px;
+    width: auto;
+}
+
+@media only screen and (max-width: 730px) {
+    .cert-logo {
+        height: 34px;
+    }
+}
+@media only screen and (max-width: 455px) {
+    .cert-logo {
+        height: 24px;
+        transition: 0.4s ease-in;
+        padding: 0px 14px;
+    }
+}

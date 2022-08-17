@@ -1,0 +1,35 @@
+
+.Childsafewrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0px;
+
+}
+.childsafetxtcont {
+    max-width: 1200px;
+    margin: 40px 32px;
+}
+.parent-child-img {
+    height: 384px;
+    width: auto;
+    margin: 0 auto;
+}
+.childsafetxtcont {
+    margin-top: 32px;
+}
+@media only screen and (max-width: 455px) {
+
+    .parent-child-img {
+        transition: 0.4s ease-in;
+        width: 100%;
+        height: auto;
+    }
+    .childsafetxtcont {
+        margin: 40px 16px;
+        
+    }
+    .centtext {
+        padding: 0px 16px;
+    }
+}

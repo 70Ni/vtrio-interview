@@ -1,0 +1,120 @@
+/* font-family: 'Lexend Deca', sans-serif; */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.largetext {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.bodywrapper {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navSection {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: space-between;
+    max-width: 1200px;
+}
+.logo {
+    width: auto;
+    height: 50px;
+    margin: 12px;
+}
+.navLogoSec {
+    margin: 12px 0px;
+}
+.Navlinksec {
+    display: flex;
+    align-items: center;
+}
+.navlink {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 20px;
+}
+.Purachse-button {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: #F4B812;
+    border-radius: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.purchaseIcon {
+    margin-left: 14px;
+}
+
+.SecondBannerWrapper {
+    display: flex;
+    width: 100%;
+}
+
+.SecBanImgCont {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.floatimagCont {
+    width: 50%;
+}
+.secBanImg {
+    height: 440px;
+    width: auto;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.Secondary-button, .sec-button {
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: #12602D;
+    color: #ffffff;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFEB80;
+    font-weight: normal;
+}
+.sec-button {
+    padding: 8px 24px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.Header {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #12602D;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.centtext {
+    color: #12602D;
+    font-weight: 400;
+    margin-bottom: 8px;
+    padding: 0px 32px;
+    text-align: center;
+}

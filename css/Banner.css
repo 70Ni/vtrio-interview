@@ -1,0 +1,62 @@
+.bannerwrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFEB80;
+    margin: 80px 0px;
+}
+.bannerWrappertxt {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 200px;
+    font-weight: 800;
+    color: #0f0f0f;
+    text-align: center;
+    margin-bottom: 14px;
+    padding: 70px 114px 120px;
+    background-color: #FFEB80;
+}
+.mixedFruitsWrapper {
+    position: relative;
+}
+.mixed-fruits {
+    height: 588px;
+    width: auto;
+    position: absolute;
+    right: 0px;
+    bottom: -20px;
+}
+@media only screen and (max-width: 1030px) {
+
+    .bannerWrappertxt {
+        transition: 0.4s ease-in;
+        font-size: 150px;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .mixed-fruits {
+        height: 440px;
+        transition: 0.4s ease-in;
+    }
+    .bannerWrappertxt {
+        transition: 0.4s ease-in;
+        font-size: 100px;
+        padding: 50px;
+
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .mixed-fruits {
+        height: 260px;
+        transition: 0.4s ease-in;
+    }
+    .bannerWrappertxt {
+        transition: 0.4s ease-in;
+        font-size: 80px;
+        padding: 0px;
+    }
+    .bannerwrapper {
+        margin: 40px 0px;
+    }
+
+}

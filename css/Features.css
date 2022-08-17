@@ -1,0 +1,40 @@
+.FeaturesListWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featuresSection {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px 0px;
+}
+.girlImg {
+    height: 448px;
+    width: auto;}
+
+@media only screen and (max-width: 1030px) {
+
+    .girlImg {
+        transition: 0.4s ease-in;
+        height: 348px;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .featuresSection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .girlImg {
+        margin-bottom: 44px;
+    }
+
+}
+
+@media only screen and (max-width: 455px) {
+    .featuresSection {
+        margin: 80px 16px;
+    }
+
+}
